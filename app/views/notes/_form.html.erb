@@ -1,0 +1,15 @@
+<%= form_for @note do |f| %>
+  <%= f.label :title %>
+  <%= f.text_field :title %>
+  <br />
+  <%= f.label :body %>
+  <%= f.text_area :body %>
+  <br />
+  <%= f.label :urgency %>
+  <%= f.text_field :urgency %>
+  <br />
+  <%= f.label :deadline %>
+  <%= f.text_field :deadline %>
+  <br />
+  <%= f.submit %>
+<% end %>
